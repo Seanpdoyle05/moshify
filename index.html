@@ -20,75 +20,49 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block">
       <header class="block__header">
-        <h2>User-friendly Control Panel</h2>
+        <h2>What our customers are saying</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, quidem.
+        </p>
       </header>
-      <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
-          <source
-            type="image/webp"
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
-          />
-          <source
-            type="image/png"
-            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
-          />
-          <img src="images/ipad.png" alt="" />
-        </picture>
-        <ul class="list">
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#menu"></use>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grig grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="images/testimonial.jpg"
+                alt="A happy, smiling customer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
                 </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Easy start & Managed Updates</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-                  beatae minus ut dolorum recu sandae molestias quaerat, veniam
-                  ratione praesentium voluptatibus?
-                </p>
-              </div>
+              </span>
             </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#growth"></use>
-                </svg>
+            <blockquote class="quote">
+              <p class="qoute__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti facere quidem cum perferendis architecto doloribus!
+                Esse laudantium laborum ipsa doloribus.
+              </p>
+            </blockquote>
+            <footer>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--primary quote__line">
+                    <use xlink:href="images/sprite.svg#menu"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title qoute__author">John Smith</h3>
+                  <p class="quote__organization">ABC Company</p>
+                </div>
               </div>
-              <div class="media__body">
-                <h3 class="media__title">Staging, Git & WP-CLI</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-                  beatae minus ut dolorum recu sandae molestias quaerat, veniam
-                  ratione praesentium voluptatibus?
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#wordpress"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Dynamic Catching & More</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-                  beatae minus ut dolorum recu sandae molestias quaerat, veniam
-                  ratione praesentium voluptatibus?
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+            </footer>
+          </div>
+        </div>
       </div>
     </section>
     <script src="js/main.js"></script>
