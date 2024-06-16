@@ -176,7 +176,7 @@ h3 {
 }
 
 .icon--white {
-    fill: #fff;
+  fill: #fff;
 }
 
 .icon-container {
@@ -809,3 +809,7 @@ transform: rotate(0);
     } 
 }
 
+/* Footer */
+.footer {
+    background: #232323;
+}
